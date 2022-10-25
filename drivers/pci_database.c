@@ -241,25 +241,25 @@ static const pci_subclass_t net_subclass[] = {
 static const pci_dev_t vga_devices[] = {
     {
         PCI_VENDOR_ID_ATI, PCI_DEVICE_ID_ATI_RAGE128_PF,
-        NULL, "ATY",      "ATY Rage128", "VGA\0",
+        NULL, "QEMU,VGA",      "ATY Rage128", "VGA\0",
         0, 0, 0,
         NULL, NULL,
     },
     {
         PCI_VENDOR_ID_ATI, PCI_DEVICE_ID_ATI_RADEON_QY,
-        NULL, "ATY",      "ATY Radeon7000", "VGA\0",
+        NULL, "QEMU,VGA",      "ATY Radeon7000", "VGA\0",
         0, 0, 0,
         NULL, NULL,
     },
     {
         PCI_VENDOR_ID_ATI, PCI_DEVICE_ID_ATI_RADEON_If,
-        NULL, "ATY",      "ATY Radeon9000", "VGA\0",
+        NULL, "QEMU,VGA",      "ATY Radeon9000", "VGA\0",
         0, 0, 0,
         NULL, NULL,
     },
     {
         PCI_VENDOR_ID_NVIDIA, PCI_DEVICE_ID_NVIDIA_GEFORCE4_TI_4200,
-        NULL, "NVIDIA",      "NVIDIA Geforce4 Ti 4200", "VGA\0",
+        NULL, "QEMU,VGA",      "NVIDIA Geforce4 Ti 4200", "VGA\0",
         0, 0, 0,
         NULL, NULL,
     },
