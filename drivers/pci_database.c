@@ -259,7 +259,13 @@ static const pci_dev_t vga_devices[] = {
     },
     {
         PCI_VENDOR_ID_NVIDIA, PCI_DEVICE_ID_NVIDIA_GEFORCE4_TI_4200,
-        NULL, "NVIDIA",      "NVIDIA Geforce4 Ti 4200", "VGA\0",
+        NULL, "NVIDIA",      "Geforce4 Ti 4200", "VGA\0",
+        0, 0, 0,
+        NULL, NULL,
+    },
+    {
+        PCI_VENDOR_ID_NVIDIA, PCI_DEVICE_ID_NVIDIA_GEFORCE4_TI_4600,
+        NULL, "NVIDIA",      "Geforce4 Ti 4600", "VGA\0",
         0, 0, 0,
         NULL, NULL,
     },
