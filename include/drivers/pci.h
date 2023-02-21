@@ -200,6 +200,7 @@ extern const pci_arch_t *arch;
 #define PCI_VENDOR_ID_NVIDIA                  	0x10de
 #define PCI_DEVICE_ID_NVIDIA_GEFORCE4_TI_4200 	0x0253
 #define PCI_DEVICE_ID_NVIDIA_GEFORCE4_TI_4600	0x0250
+#define PCI_DEVICE_ID_NVIDIA_GEFORCE_FX_5200	0x0321
 
 #define PCI_VENDOR_ID_DEC                0x1011
 #define PCI_DEVICE_ID_DEC_21154          0x0026

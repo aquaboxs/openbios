@@ -276,6 +276,12 @@ static const pci_dev_t vga_devices[] = {
         NULL, NULL,
     },
     {
+        PCI_VENDOR_ID_NVIDIA, PCI_DEVICE_ID_NVIDIA_GEFORCE_FX_5200,
+        NULL, "NVIDIA",      "Geforce FX 5200 Ultra", "VGA\0",
+        0, 0, 0,
+        NULL, NULL,
+    },
+    {
         PCI_VENDOR_ID_QEMU, PCI_DEVICE_ID_QEMU_VGA,
         NULL, "QEMU,VGA", "QEMU VGA",    "VGA\0",
         0, 0, 0,
