@@ -246,6 +246,12 @@ static const pci_dev_t vga_devices[] = {
         NULL, NULL,
     },
     {
+        PCI_VENDOR_ID_ATI, 0x5245,
+        NULL, "ATY",      "ATY Rage128", "VGA\0",
+        0, 0, 0,
+        NULL, NULL,
+    },
+    {
         PCI_VENDOR_ID_ATI, PCI_DEVICE_ID_ATI_RADEON_QY,
         NULL, "ATY",      "ATY Radeon7000", "VGA\0",
         0, 0, 0,
