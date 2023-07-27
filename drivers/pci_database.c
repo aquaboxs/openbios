@@ -459,8 +459,8 @@ static const pci_dev_t hbrg_devices[] = {
         host_config_cb, NULL,
     },
     {
-        0x106b, 0x0001, NULL,
-        "pci", "Pippin Host PCI Bridge - Apple Bandit", NULL,
+        0x106b, 0x0001, "pci",
+        "bandit\0", "AAPL,343S1126", NULL,
         3, 2, 1,
         host_config_cb, NULL,
     },
